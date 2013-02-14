@@ -72,4 +72,10 @@ html[xmlns] .clearfix { display: block; }
 * html .clearfix { height: 1%; }
 
 
-h1 {color:brown;}
+h1 {color:maroon;}
+h1 {font-size: 40px;}
+header {font-size: 75px;}
+nav {color:black;}
+body {
+	background:http://static7.depositphotos.com/1244748/761/i/950/depositphotos_7617599-Hand-drawn-wavy-lines-texture.jpg(bgimage.jpg);}
+a {text-decoration:none;}
