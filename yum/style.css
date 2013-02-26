@@ -77,6 +77,8 @@ h1{font-variant;small-caps;}
 h2{color:grey;}
 h2{font-size:20px;}
 body {background-color:#c8e1e1;}
+
+
 li {
 	margin: 0px;
 	padding: 0px;
@@ -86,3 +88,5 @@ li {
 	line-height: 30px;
 	white-space: nowrap;
 	}
+
+p{float:right}
