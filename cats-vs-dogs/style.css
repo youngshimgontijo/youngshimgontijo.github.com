@@ -71,33 +71,35 @@ html[xmlns] .clearfix { display: block; }
 * html .clearfix { height: 1%; }
 
 
-h1 {color:black;}
-h1 {font-size: 40px;}
-header {font-size: 75px;}
+h1 { 
+	color:black;
+	font-size: 40px;
+	}
+
+header {
+	font-size: 75px;
+		}
 div#navbar li {
-list-style-type: none;
-display: inline;
-margin: 0px;
-padding: 0px;
-font-family: Arial, Helvetica, sans-serif;
-font-size: small;
-color: #FFF;
-line-height: 30px;
-white-space: nowrap;
-}
+	list-style-type: none;
+	display: inline;
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: small;
+	color: #FFF;
+	line-height: 30px;
+	white-space: nowrap;
+	}
 
 body {background-image:url('http://www.commentnation.com/backgrounds/images/light_orange_seamless_paw_prints_wallpaper.gif');}
 	
 a {text-decoration:none;}
 
-img.http://25.media.tumblr.com/tumblr_lumce2aiwB1qggfqlo1_500.jpg {
- 	width: 12em;
- 	height: 8em;
- }
-img.http://s4.hubimg.com/u/5958023_f260.jpg{
-	width:12em;
-	height:8em;
-}
+img.websitepics {
+ 	width: 400px;
+ 	height: 400px;
+ 	}
+
 
 p {
 margin: 0px;
