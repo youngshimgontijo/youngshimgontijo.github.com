@@ -71,23 +71,53 @@ html[xmlns] .clearfix { display: block; }
 * html .clearfix { height: 1%; }
 
 h1{ color: #473520;
-	text-align:center;}
-h1{ font-size:40px;}
-h1{font-family: Arial, Helvetica, sans-serif;}
-h1{font-variant;small-caps;}
-h2{color:grey;}
-h2{font-size:20px;}
-body {background-color:#c8e1e1;}
+	text-align:center;
+	font-size:40px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-variant;small-caps;
+	font-weight:lighter;
+	margin:0px;
+	padding:30px;
+	}
+	
+h2{
+	color:grey;
+	font-size:20px;
+	}
 
+body {background-color:#c8e1e1;
+	}
 
 
 li {
 	margin: 0px;
-	padding: 0px;
+	padding: 30px;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: small;
 	color:black;
-	line-height: 30px;
-	white-space: nowrap;
+	line-height: 10px;
 	}
-	 .a{text-decoration:none;color:gray}
+	 .credits {
+		 text-decoration:underline;
+		 }
+	 a {
+		 text-decoration:none;
+		 color:gray
+		 }
+
+.column1of2, .column2of2 {
+	width:300px;
+	float:right;
+	margin:50px;
+	}
+	
+.meltawaycolumn1of2, .meltawaycolumn2of2 {
+	width:300px;
+	float:left;
+	margin:50px;
+	}
+	
+img.center {   display: block;
+	margin-left: auto;
+	margin-right: auto;
+	 }
