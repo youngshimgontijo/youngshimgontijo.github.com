@@ -33,10 +33,105 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	width:940px;
+	margin:0 auto;
 }
-ol, ul {
+#site-header {
+	width:940px;
+	background-color: #FFC;
+		}
+#site-wrapper {
+	width:940px;
+	background-color: #FFC;
+}
+	
+#menu-wrapper {
+	width: 940px;
+	margin:auto;
+	background-color: #630;
+}
+
+#main-menu {
 	list-style: none;
+	width:940px;
+	margin:30px auto 0px auto;
+	height:43px;
+	padding:0px 20px 0px 20px;
+	}
+	
+#main-menu li {  
+    float:left;  
+    display:block;  
+    text-align:center;  
+    position:relative;  
+    padding:0px 17px;  
+    margin-right:auto;  
+    margin-left:auto;   
 }
+	
+#main-menu li a {  
+    font-family:Arial, Helvetica, sans-serif;  
+    font-size:14px;  
+    color: #FFC; 
+	text-transform:uppercase;
+	line-height: 30px; 
+    display:block;  
+    outline:0;  
+    text-decoration:none; 
+}
+#menu li ul {
+	display:none;
+	position:absolute;
+	top:20px;
+}
+	
+ol, ul {
+	float:left;
+	display:block;
+	text:align:center;
+	position:relative;
+	padding:6px 17px;
+	margin-right:10px;
+	margin-top:7px;
+	}
+	
+#content-wrapper{
+	
+}
+
+#content{
+	
+	
+}
+
+#page{
+	
+	
+}
+
+#sidebar{
+
+}
+
+#footer-wrapper{
+	
+	
+}
+
+#site-footer{
+	
+}
+
+#footer-contact{
+	
+}
+
+#footer-follow{
+	
+}
+
+
+
 blockquote, q {
 	quotes: none;
 }

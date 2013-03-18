@@ -71,27 +71,51 @@ html[xmlns] .clearfix { display: block; }
 * html .clearfix { height: 1%; }
 
 
+body {
+	width: 960px;
+	margin: auto;
+	}
+	
+#content {
+	overflow:auto;
+	height:100%; 
+	}	
+
+
 h1 { 
 	color:black;
-	font-size: 40px;
+	font-size: 24px;
+	text-align:left;
+	font-weight:bold;
 	}
 
 header {
 	font-size: 75px;
 		}
-div#navbar li {
-	list-style-type: none;
-	display: inline;
-	margin: 10px;
-	padding:20px;
-	font-family: Arial, Helvetica, sans-serif;
+
+#navbar li{ 
+	list-style:disc;
+	display:inline-block;
+	padding:0px;
+	margin-left:auto;
+	margin-right:auto;
+	width:6em;
+	font-family: georgia;
 	font-size: small;
 	color: #FFF;
 	line-height: 30px;
-	white-space: nowrap;
+	text-transform:uppercase;
+	text-align:center;
+	font-size:24px;
+	font-weight:bold;
 	}
-
-body {background-image:url('http://www.commentnation.com/backgrounds/images/light_orange_seamless_paw_prints_wallpaper.gif');}
+	
+	
+hr{ 
+	border: solid;
+	color:black;
+	width:940px;
+   }
 	
 .credits {
 		 text-decoration:underline;
@@ -101,36 +125,49 @@ body {background-image:url('http://www.commentnation.com/backgrounds/images/ligh
 		 color:black;
 		 }
 
-img.websitepics {
- 	width: 288px;
- 	}
 
-
-p {
-margin: 10px;
-padding: 0px;
-font-family: Arial, Helvetica, sans-serif;
-font-size: small;
-color:black;
-line-height: 30px;
-border: 2px solid black;
-padding:20px;
-width:275px;
-border-radius:10px;
--moz-border-radius: 10px;
--webkit-border-radius: 10px;
-}
-
-
-
-article {
+.article1, .article2 {
 	float:left; 
-	width:30%;
-	margin:10px;
+	margin:0px;
+	margin: 10px;
+	padding: 10px;
+	font-family: georgia;
+	font-size: small;
+	line-height: 30px;
+	width:460px;
 		}
-img {
-	margin:20px;
-	width:20%;
-	padding:20px;
+		
+.websitepics {
+	display: inline-block;
+	margin-left: auto;
+    margin-right: auto;
+	padding:0px;
+	margin:0px;
+			}
+
+		
+	
+img.center {   
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding:10px;
+	 }
+   
+.footer{
+	width:960px;
+	border:1px solid;
+	float:right;
+	padding:10px;
+	}
+.footerLeft{
+	width:49%;
+	float:left;
+	display:inline;
+	}
+.footerRight{
+	width:49%;
+	float:right;
+	display:inline;
 	}
 	
