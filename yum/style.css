@@ -84,22 +84,34 @@ p{ color: #473520;
 	padding:25px;
 	width:900ppx;
 	}
-	
-#text {
+#blocktext {
 	border:2px dashed #F66;
 	border-radius: 2px;
 	-moz-border-radius:2px;
 	-webkit-border-radius:2px;
-			}
+		}
+		
 h1{
 	font-family:Arial, Helvetica, sans-serif;
-	font-size:36px;
+	font-size:45px;
+	font-variant:small-caps;
+	font-weight:lighter;
+	margin:0px;
+	padding:15px;
+	}
+	
+.paragraphforsamoas{
+	color: #473520;
+	text-align: left;
+	font-size:25px;
+	font-family: Arial, Helvetica, sans-serif;
 	font-variant:small-caps;
 	font-weight:lighter;
 	margin:10px;
 	padding:25px;
+	width:900ppx;
+		}
 	
-	}
 	
 h2{
 	color:grey;
@@ -136,7 +148,12 @@ a {
 	margin:50px;
 	}
 	
-img.meltawayimage {   display: inline;
+.meltawayimage {   
+display: inline;
 	margin-left: auto;
 	margin-right: auto;
 	 }
+	 
+.column2of2{
+	
+	}

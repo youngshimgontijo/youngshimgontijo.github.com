@@ -32,41 +32,71 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
-	width:940px;
+	width:100%;
+}
+
+.logo{
+	position:absolute;
+	top:80px;
+	left:20px;
+		}
+#site-header {
+	width:960px;
+	background-color: #FFC;
+	position:relative;
+		}
+
+#site-wrapper {
+	background-color: #FFC
+	width:960px;
+}		
+		
+header{
+	position:relative;
+	background-color:orange;
+	height:200px;
+	width:960px;
 	margin:0 auto;
 }
-#site-header {
-	width:940px;
-	background-color: #FFC;
-		}
-#site-wrapper {
-	width:940px;
-	background-color: #FFC;
+header h1{
+	position:absolute;
+	font-size:24px;
+	top:50px;
+	left:50px;
+	background-color:magenta;
 }
+
+header nav{
+	position:absolute;
+	right:0px;
+	background-color:black;
+	}
 	
 #menu-wrapper {
-	width: 940px;
-	margin:auto;
+	width: 960px;
+	margin:0 auto;
 	background-color: #630;
 }
 
 #main-menu {
 	list-style: none;
-	width:940px;
-	margin:30px auto 0px auto;
+	width:960px;
+	margin:0 auto;
 	height:43px;
 	padding:0px 20px 0px 20px;
+	position:relative;
+	height:50px;
 	}
 	
 #main-menu li {  
-    float:left;  
+ 	float:left;  
     display:block;  
     text-align:center;  
     position:relative;  
     padding:0px 17px;  
     margin-right:auto;  
-    margin-left:auto;   
+    margin-left:auto;
+	background-color:blue;   
 }
 	
 #main-menu li a {  
@@ -100,48 +130,60 @@ ol, ul {
 }
 
 #content{
-	
-	
-}
+	background-color:green;
+	width:960px;
+	margin:0 auto;
+	}
+
 
 #page{
+	float:left;
+	width:60%;
+	background-color:red;
 	
-	
-}
+	}
 
 #sidebar{
-
-}
+	float:left;
+	width:30%;
+	background-color:purple;
+	}
 
 #footer-wrapper{
+	clear:both;
+	height:200px
 	
-	
-}
+	}
 
 #site-footer{
+	position:relative;
+	bottom:0;
+	background-color:teal;
+	clear:both;
+	width:960px;
+	margin:0 auto;
 	
-}
+	}
 
 #footer-contact{
-	
-}
+	}
 
 #footer-follow{
-	
-}
+	}
 
 
 
 blockquote, q {
 	quotes: none;
-}
+	}
 blockquote:before, blockquote:after,
 q:before, q:after {
 	content: '';
 	content: none;
-}
+	}
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
-}
+
+	}
 
