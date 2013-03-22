@@ -73,11 +73,11 @@ html[xmlns] .clearfix { display: block; }
 
 body {
 	width: 960px;
-	margin: auto;
+	margin:0 auto;
 	}
 	
 #content {
-	overflow:auto;
+	overflow:0 auto;
 	height:100%; 
 	}	
 
@@ -89,34 +89,29 @@ h1 {
 	font-weight:bold;
 	}
 
-header {
-	font-size: 75px;
-		}
-
-#navbar li{ 
-	list-style:disc;
-	display:inline-block;
+#navbar ul{ 
 	padding:0px;
-	margin-left:auto;
-	margin-right:auto;
-	width:6em;
+	margin:0px;
+	text-align:center;
+	list-style-type:disc;
+	}
+#navlist ul li{
+	display: inline;
+	list-style-type:disc;
+	}
+
+#navlist ul li a{
+	padding: .2em 1em;
+	list-style-type:disc;
 	font-family: georgia;
 	font-size: small;
-	color: #FFF;
+	color: black;
 	line-height: 30px;
 	text-transform:uppercase;
-	text-align:center;
 	font-size:24px;
 	font-weight:bold;
 	}
-	
-	
-hr{ 
-	border: solid;
-	color:black;
-	width:940px;
-   }
-	
+
 .credits {
 		 text-decoration:underline;
 		 }
@@ -126,23 +121,36 @@ hr{
 		 }
 
 
-.article1, .article2 {
+.article1{
 	float:left; 
-	margin:0px;
-	margin: 10px;
-	padding: 10px;
+	margin:0 auto;
+	padding: 20px;
 	font-family: georgia;
 	font-size: small;
 	line-height: 30px;
-	width:460px;
+	width:425px;
+		}
+
+ .article2 {
+	float:right; 
+	margin:0 auto;
+	padding: 20px;
+	font-family: georgia;
+	font-size: small;
+	line-height: 30px;
+	width:425px;
 		}
 		
+.clear{
+	clear:left;
+}
+
 .websitepics {
 	display: inline-block;
 	margin-left: auto;
     margin-right: auto;
 	padding:0px;
-	margin:0px;
+	margin:0 auto;
 			}
 
 		
@@ -153,10 +161,16 @@ img.center {
 	margin-right: auto;
 	padding:10px;
 	 }
+	 
+	 
+#line-separator{
+	height:3px;
+	background:black;
+	border-bottom:1px solid black;
+	}
    
 .footer{
 	width:960px;
-	border:1px solid;
 	float:right;
 	padding:10px;
 	}
@@ -169,5 +183,6 @@ img.center {
 	width:49%;
 	float:right;
 	display:inline;
+	text-align:right;
 	}
 	

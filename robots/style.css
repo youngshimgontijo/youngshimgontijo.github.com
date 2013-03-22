@@ -32,45 +32,49 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	width:100%;
+	  width:960px;
+	  margin:0 auto;
 }
 
 .logo{
-	position:absolute;
-	top:80px;
-	left:20px;
+	position:left;
+	top:10px;
+	left:0px;
+	
 		}
 #site-header {
-	width:960px;
 	background-color: #FFC;
 	position:relative;
+	height:120px;
 		}
 
 #site-wrapper {
 	background-color: #FFC
 	width:960px;
 }		
-		
-header{
-	position:relative;
-	background-color:orange;
-	height:200px;
-	width:960px;
-	margin:0 auto;
-}
+
 header h1{
 	position:absolute;
 	font-size:24px;
 	top:50px;
 	left:50px;
 	background-color:magenta;
+	width:150px
 }
 
 header nav{
 	position:absolute;
 	right:0px;
-	background-color:black;
+	
 	}
+	
+#top-nav{
+	color: #630;
+	font-family:Arial, Helvetica, sans-serif;  
+    font-size:16px;
+	
+}
+	
 	
 #menu-wrapper {
 	width: 960px;
@@ -80,52 +84,80 @@ header nav{
 
 #main-menu {
 	list-style: none;
-	width:960px;
-	margin:0 auto;
-	height:43px;
-	padding:0px 20px 0px 20px;
 	position:relative;
-	height:50px;
+	left:0px;
+	height:30px;
 	}
 	
 #main-menu li {  
  	float:left;  
     display:block;  
-    text-align:center;  
-    position:relative;  
-    padding:0px 17px;  
-    margin-right:auto;  
-    margin-left:auto;
-	background-color:blue;   
+	margin-left:0px; 
+	margin-right:20px;
+	background-color:blue; 
 }
 	
 #main-menu li a {  
     font-family:Arial, Helvetica, sans-serif;  
-    font-size:14px;  
+    font-size:16px;  
     color: #FFC; 
 	text-transform:uppercase;
-	line-height: 30px; 
-    display:block;  
+	line-height: 15px; 
+    display:block;
+	font-weight:bold;  
     outline:0;  
     text-decoration:none; 
 }
 #menu li ul {
 	display:none;
 	position:absolute;
-	top:20px;
+	top:20px; 
 }
 	
 ol, ul {
 	float:left;
 	display:block;
-	text:align:center;
 	position:relative;
-	padding:6px 17px;
 	margin-right:10px;
 	margin-top:7px;
+	list-style-type:none;
+	text-align:left;
+	font-size:16px;
+	font-family: Arial, Helvetica, sans-serif; 
+	
+	
 	}
 	
+.credits {
+		 text-decoration:underline;
+		 }
+a {
+		 text-decoration:none;
+		 color:#630;
+		 }
+		 
+h1{
+	text-align:left;
+	font-size:30px;
+	font-family: Arial, Helvetica, sans-serif;
+	color:#630; 
+	margin-top:10px;
+	}
+	
+#headerh1{
+	text-align:left;
+	font-size:28px;
+	font-family: Arial, Helvetica, sans-serif; 
+	text-transform:uppercase;
+	font-weight:bold;
+	margin-top:50px;
+	margin-bottom:5px;
+}
+
+	
 #content-wrapper{
+	background-color:#0CC;
+
 	
 }
 
@@ -133,43 +165,97 @@ ol, ul {
 	background-color:green;
 	width:960px;
 	margin:0 auto;
+	text-align:left;
+	font-family: Arial, Helvetica, sans-serif; 
+}
+
+h2{
+	text-align:left;
+	font-size:24px;
+	font-family: Arial, Helvetica, sans-serif; 
+	color: #630;
+	margin-bottom: 5px;
 	}
+	
+p{
+	margin-bottom:10px;
+	width:960px;
+	color:#630; 
+}
 
 
 #page{
 	float:left;
 	width:60%;
-	background-color:red;
-	
+	margin-top:20px;
 	}
 
 #sidebar{
-	float:left;
+	float:right;
 	width:30%;
-	background-color:purple;
+	color:#630; 
+	}
+	
+.robotpetpix { 
+	float:left;  
+    display:block;    
+    position:relative;  
+      
+    margin-left:auto;
+	background-color:magenta;   
 	}
 
 #footer-wrapper{
 	clear:both;
-	height:200px
-	
-	}
-
-#site-footer{
-	position:relative;
-	bottom:0;
-	background-color:teal;
-	clear:both;
-	width:960px;
-	margin:0 auto;
+	height:150px;
+	background-color:#630;
 	
 	}
 
 #footer-contact{
+	float:left;
+	width:150px;
+	text-align:left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:16px;
+	background-color: #630;
+	height:150px;
 	}
 
-#footer-follow{
+
+#site-footer{
+	float:right;
+	background-color: #630;
+	width:960px;
+	height:150px;
+
 	}
+#footer-follow li{
+	float:left;
+	display:block;
+	width:60px;
+	}
+
+
+#footerh1 {
+	text-align:left;
+	font-size:18px;
+	font-family: Arial, Helvetica, sans-serif; 
+	text-transform:uppercase;
+	font-weight:bold;
+	margin-bottom:5px;
+	margin-top:5px;
+	color:#FFC;
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -185,5 +271,4 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 
-	}
 
