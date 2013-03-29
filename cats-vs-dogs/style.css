@@ -162,8 +162,7 @@ img.center {
 	padding:10px;
 	 }
 	 
-	 
-#line-separator{
+.line-separator{
 	height:3px;
 	background:black;
 	border-bottom:1px solid black;
