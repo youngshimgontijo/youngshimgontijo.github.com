@@ -77,47 +77,52 @@ html[xmlns] .clearfix { display: block; }
 
 body { 
 	   width:90%; 
-	   margin:0 auto; }
+	   margin:0 auto;
+	   background-color:cccccc; }
 
 #content{
 	overflow:auto
 	}
-#nav, #feature, #footer{ margin:1%;}
+#nav, #feature, #footer-wrapper{ margin:1%;}
 
-#nav, #footer{ background-color:#efefef;
+#nav, #footer-wrapper{ background-color:#efefef;
 padding:0.5em 0;}
 		
 #footer-wrapper {
 	width: 960px;
-	margin:0 auto;
-	background-color: #630;
+	margin-bottom:10px;
+	padding:5px;
+	background-color:;
 }
-
-background-color{ gray;
-	}
 	
 #main-menu {
 	list-style: none;
 	position:relative;
 	left:0px;
 	height:30px;
+	background-color:;
+	}
+	
+#main-menu li:hover {  
+    border: 1px solid #E0E0E0;  
+    background: #F4F4F4; 
 	}
 	
 #main-menu li {  
  	float:left;  
     display:block;  
 	margin-left:0px; 
-	margin-right:20px;
+	margin-right:90px;
+	padding:2px;
+	background-color:;
 }
 	
 #main-menu li a {  
-    font-family:Arial, Helvetica, sans-serif;  
+    font-family:Aaargh, Arial, Helvetica, sans-serif;  
     font-size:16px;  
-    color: #FFC; 
-	text-transform:uppercase;
+	color:black; 
 	line-height: 15px; 
-    display:block;
-	font-weight:bold;  
+    display:block; 
     outline:0;  
     text-decoration:none; 
 }
@@ -131,12 +136,13 @@ ul {
 	float:left;
 	display:block;
 	position:relative;
-	margin-right:10px;
-	margin-top:7px;
+	margin-left:40px;
+	margin-top:5px;
 	list-style-type:none;
 	text-align:left;
 	font-size:16px;
-	font-family: Arial, Helvetica, sans-serif; 
+	font-family: Aaargh, Arial, Helvetica, sans-serif; 
+	background-color:;
 	
 	
 	}
@@ -148,70 +154,76 @@ a {
 		 text-decoration:none;
 		 color:#630;
 		 }
-		 
-#site-header {
-  position:relative; 
-  height:80px;
+
+#sidebar { float:left; 
+			width:220px; 
+			padding:50px 10px; 
+			background-color: pink;
+			
+				}
+
+@font-face {
+    font-family: 'AaarghNormal';
+    src: url('Aaargh-webfont.eot');
+    src: url('Aaargh-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Aaargh-webfont.woff') format('woff'),
+         url('Aaargh-webfont.ttf') format('truetype'),
+         url('Aaargh-webfont.svg#AaarghNormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
 }
-
-#site-header h1 a { 
-  	display:block;	
- 	 text-indent:-9999px;    
-  	position:absolute;
-  	width:300px; height:80px;
- 	 background:url(logo.png) no-repeat left top;
-}
-
-
-#page-content { float:left; 
-						width:550px; 
-						padding:50px 20px; }
-#sidebar { float:right; 
-				width:220px; 
-				padding:50px 10px;; }
-
-#site-footer { 
-  				 clear:both; 
-   				 background-color:black; 
-   				 color:white; padding:10px 0px; 
-					}
-
-
-
-
 
 
 
 .article1{
-	float:left; 
-	margin:0 auto;
+	float:right; 
+	margin-right:150px;
 	padding: 20px;
-	font-family: georgia;
+	font-family: Aaargh;
 	font-size: 16px;
-	width:40%;}	
+	width:40%;
+	background-color:;
+	}	
 	
 
-.selfpic{ float:left;
+.selfpic{
 		  width:40%;
 		  }
+		  
+clear{
+	clear:both;}
 
-h1{ font-size:18px;
-	text-align:left;
-	font-weight:bold;}
+h1{ font-size: 36px;
+	text-align:right;
+	font-family:Aaargh;}
 
 p{ 
-	background-color:red;
+	background-color:;
 	color:black;
 	text-align:left;
 	font-size:16px;
-	font-family: Arial, Helvetica, sans-serif; 
-	width:40%;	
+	font-family:Aaargh, Arial, Helvetica, sans-serif; 
+	width:40%;
+	margin-bottom:80px;
 	}
 
+.About{
+	font-family:Aaargh, Arial, Helvetica, sans-serif;
+	font-size:24px;
+	text-align:right;
+	}
 	
-.jewels{
-	background-color:blue;}
+.jeweledwater{
+	float:left;
+	}
 	
+.yglogo{
+	}
+	
+.contact{
+	float:right;
+	margin-bottom:300px;}
 	
 	
 /*! fancyBox v2.1.4 fancyapps.com | fancyapps.com/fancybox/#license */
@@ -375,7 +387,7 @@ p{
 	visibility: hidden;
 	max-width: 99999px;
 	max-height: 99999px;
-	overflow: visible !important;
+	overflow: visible;
 }
 
 /* Overlay helper */
