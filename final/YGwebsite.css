@@ -84,15 +84,13 @@ body {
 #content{
 	overflow:auto
 	}
-#nav, #feature, #footer-wrapper{ margin:1%;}
 
-#nav, #footer-wrapper{ background-color:#efefef;
-padding:0.5em 0;}
+
 		
 #footer-wrapper {
 	margin-bottom:10px;
 	padding:5px;
-	background-color:orange;
+	background-color:;
 }
 	
 #main-menu {
@@ -101,7 +99,7 @@ padding:0.5em 0;}
 	position:relative;
 	left:0px;
 	height:30px;
-	background-color:pink;
+	background-color:;
 	}
 	
 #main-menu li:hover {  
@@ -115,7 +113,7 @@ padding:0.5em 0;}
 	margin-left:0px; 
 	margin-right:90px;
 	padding:2px;
-	background-color:purple;
+	background-color:;
 }
 	
 #main-menu li a {  
@@ -138,13 +136,15 @@ ul {
 	display:block;
 	position:relative;
 	margin-left:40px;
-	margin-top:5px;
+	margin-top:10px;
+	margin-bottom:10px;
 	list-style-type:none;
 	text-align:left;
 	font-size:16px;
 	font-family: AaarghNormal, Arial, Helvetica, sans-serif; 
-	background-color:brown;
+	background-color:#efefef;
 	width:960px;
+	padding:5px;
 	}
 	
 .credits {
@@ -160,6 +160,7 @@ a {
 			padding:10px 10px; 
 			background-color:;
 			margin-bottom:10px;
+			margin-left:45px;
 			
 				}
 
@@ -177,27 +178,43 @@ a {
 
 
 .article1{
-	float:right; 
-	margin-right:150px;
-	padding: 20px;
+	float:left; 
+	margin-right:50px;
+	padding: 10px;
 	font-family: AaarghNormal;
 	font-size: 16px;
-	width:40%;
+	width:50%;
 	background-color:;
 	line-height:20px;
+	margin-bottom:10px;
 	}	
 	
-
 .selfpic{
 		  width:40%;
+		  float:left;
 		  }
 		  
+.contact{
+	float:right;
+	background-color:;
+	width:300px;
+	margin-top:20px;
+	margin-bottom:auto;
+	font-size:16px;
+	font-family:AaarghNormal, Arial, Helvetica, sans-serif; }
+	
 clear{
 	clear:both;}
 
 h1{ font-size: 36px;
 	text-align:right;
-	font-family:AaarghNormal;}
+	font-family:AaarghNormal;
+	background-color:#efefef;
+	width:600px;
+	float:right;
+	margin-top:42px;
+	padding:6px;
+}
 
 p{ 
 	background-color:;
@@ -205,7 +222,7 @@ p{
 	text-align:left;
 	font-size:16px;
 	font-family:AaarghNormal, Arial, Helvetica, sans-serif; 
-	width:40%;
+	width:70%;
 	margin-bottom:80px;
 	}
 
@@ -216,19 +233,24 @@ p{
 	}
 	
 .jewels{
-	float:left;
+	float:left;	
 	width:500px;
-	margin-left:100px;
+	margin-left:40px;
 	}
 	
 .yglogo{ 
-float:right;
+float:left;
 width:300px;
-margin-top:200px;
-margin-right:150px;
-	}
+
+}
 	
-.contact{
+.logomain{
 	float:right;
-	margin-bottom:300px;}
-	
+	width:400px;
+	margin-top:200px;}
+
+.duck{
+	float:right;
+	height:300px;
+	width:700px;
+	margin-top:90px;}

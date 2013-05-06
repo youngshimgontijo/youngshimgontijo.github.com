@@ -49,7 +49,7 @@
 }
 
 .fancybox-inner {
-	overflow: hidden;
+	overflow: visible;
 }
 
 .fancybox-type-iframe .fancybox-inner {
@@ -135,7 +135,7 @@
 	margin-top: -18px;
 	cursor: pointer;
 	z-index: 8040;
-	visibility: hidden;
+	visibility: visible;
 }
 
 .fancybox-prev span {
@@ -165,14 +165,14 @@
 /* Overlay helper */
 
 .fancybox-lock {
-	overflow: hidden;
+	overflow: visible;
 }
 
 .fancybox-overlay {
 	position: absolute;
 	top: 0;
 	left: 0;
-	overflow: hidden;
+	overflow: visible;
 	display: none;
 	z-index: 8010;
 	background: url('fancybox_overlay.png');
@@ -192,7 +192,7 @@
 /* Title helper */
 
 .fancybox-title {
-	visibility: hidden;
+	visibility: visible;
 	font: normal 13px/20px Arial,sans-serif;
 	position: relative;
 	text-shadow: none;
