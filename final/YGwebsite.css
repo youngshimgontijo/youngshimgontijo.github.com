@@ -238,7 +238,9 @@ p{
 	margin-left:40px;
 	}
 	
-.yglogo{ 
+a.yglogo{ 
+background-image: url(file://localhost/Users/YoungshimGontijo/Desktop/youngshimgontijo.github.com/final/index.html);
+  display: block;
 float:left;
 width:300px;
 
