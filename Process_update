@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <title>Youngshim Gontijo</title>
+  	<link rel="stylesheet" href="YGwebsite.css" type="text/css" media="screen" />
+ <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+        <link rel="stylesheet" href="jquery.fancybox.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="jquery.fancybox-buttons.css" type="text/css" media="screen" />
+        <script type="text/javascript" src="jquery.fancybox.pack.js"></script>
+        <script type="text/javascript" src="jquery.fancybox.js"></script>
+             <script type="text/javascript" src="jquery.fancybox-media.js"></script>
+           <script type="text/javascript" src="jquery.fancybox-buttons.js"></script>
+          <script>
+           
+       $(document).ready(function() {
+	$(".fancybox").fancybox({
+		openEffect	: 'none',
+		closeEffect	: 'none'
+	});
+	});
+    </script>
+  	 </head>
+ 
+ 
+  <body>
+  <a href="http://youngshimgontijo.github.com/final/index.html"><img src="http://youngshimgontijo.github.com/final/images/YG-LOGOfor-web.gif" alt="yglogo" HEIGHT="100" WIDTH="100"/></a>
+   <h1>Process Work</h1>
+
+<div id="sidebar">
+<a class="fancybox" rel="gallery1" a href="images/sketchbook/ben.gif" class="fancybox"><img src="images/sketchbook/benthumb.gif" alt="benthumb" HEIGHT="100" WIDTH="100"/></a>
+<a class="fancybox" rel="gallery1" a href="images/sketchbook/duck.gif" class="fancybox"><img src="images/sketchbook/duckthumb.gif" alt="duckthumb" HEIGHT="100" WIDTH="100"/></a>
+<a class="fancybox" rel="gallery1" a href="images/sketchbook/for-website.gif" class="fancybox"><img src="images/sketchbook/for-websitethumb.gif" alt="forwebsitethumb" HEIGHT="100" WIDTH="100"/></a>
+<a class="fancybox" rel="gallery1" a href="images/sketchbook/scan059sm.gif" class="fancybox"><img src="images/sketchbook/scan059thumb.gif" alt="59thumb" HEIGHT="100" WIDTH="100"/></a>
+<a class="fancybox" rel="gallery1" a href="images/sketchbook/scan094sm.gif" class="fancybox"><img src="images/sketchbook/scan094thumb.gif" alt="94thumb" HEIGHT="100" WIDTH="100"/></a>
+<a class="fancybox" rel="gallery1" a href="images/sketchbook/sketchbook7sm.gif" class="fancybox"><img src="images/sketchbook/sketchbook7thumb.gif" alt="7thumb" HEIGHT="100" WIDTH="100"/></a>
+<a class="fancybox" rel="gallery1" a href="images/sketchbook/sketchbook8sm.gif" class="fancybox"><img src="images/sketchbook/sketchbook8thumb.gif" alt="8thumb" HEIGHT="100" WIDTH="100"/></a>
+<a class="fancybox" rel="gallery1" a href="images/sketchbook/sketchbook9sm.gif" class="fancybox"><img src="images/sketchbook/sketchbook9thumb.gif" alt="9thumb" HEIGHT="100" WIDTH="100"/></a>
+<a class="fancybox" rel="gallery1" a href="images/sketchbook/sketchbook12sm.gif" class="fancybox"><img src="images/sketchbook/sketchbook12thumb.gif" alt="12thumb" HEIGHT="100" WIDTH="100"/></a>
+<a class="fancybox" rel="gallery1" a href="images/sketchbook/scan09sm.gif" class="fancybox"><img src="images/sketchbook/scan09thumb.gif" alt="scan9thumb" HEIGHT="100" WIDTH="100"/></a>
+<a class="fancybox" rel="gallery1" a href="images/sketchbook/sketchbook10sm.gif" class="fancybox"><img src="images/sketchbook/sketchbook10thumb.gif" alt="10thumb" HEIGHT="100" WIDTH="100"/></a>
+</div>
+
+<img class="duck" src="images/duck.gif" alt="duck">
+<div id="footer-wrapper">
+ <nav id="main-menu"> 
+<ul> 
+    <li><a href="AboutContact.html">About/Contact</a></li>  
+    <li><a href="Illustration.html">Illustration</a></li>
+	<li><a href="ProcessWork.html">Process Work</a></li>
+	<li><a href="Design.html">Design</a></li>s
+	<a>&copy; Copyright Youngshim Gontijo 2013</a>
+</ul>
+</nav>
+</div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
