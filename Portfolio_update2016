@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>Youngshim Gontijo</title>
+  	<link rel="stylesheet" href="YGwebsite.css" type="text/css" media="screen" />
+ <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+        <link rel="stylesheet" href="jquery.fancybox.css" type="text/css" media="screen" />
+         <link rel="stylesheet" href="jquery.fancybox-buttons.css" type="text/css" media="screen" />
+        <script type="text/javascript" src="jquery.fancybox.pack.js"></script>
+         <script type="text/javascript" src="jquery.fancybox-media.js"></script>
+        <script type="text/javascript" src="jquery.fancybox.js"></script>
+          <script type="text/javascript" src="jquery.fancybox-buttons.js"></script>
+           <script>
+           
+        $(document).ready(function() {
+	$(".fancybox").fancybox({
+		openEffect	: 'none',
+		closeEffect	: 'none'
+	});
+});
+             </script>
+  	 </head>
+ 
+<body>
+    <a href="http://youngshimgontijo.github.com/final/index.html"><img src="http://youngshimgontijo.github.com/final/images/YG-LOGOfor-web.gif" alt="yglogo" HEIGHT="100" WIDTH="100"/></a>
+  <h1>Illustrations</h1>
+
+<div id="sidebar">
+<a class="fancybox" rel="gallery1" a href="images/Ben.gif"  class="fancybox" title="Sunshine on a Cloudy Day/ mixed media"><img src="images/Benthumb.gif" alt="ben" HEIGHT="100" WIDTH="100"/></a>
+<a class="fancybox" rel="gallery1" a href="images/BP-FISH-OIL-cmyk.gif"  class="fancybox" title="BP Oil Spill/ colored pencil"><img src="images/BP-FISH-OIL-cmykthumb.gif" alt="fish" HEIGHT="100" WIDTH="100"/></a>
+<a class="fancybox" rel="gallery1" a href="images/sheep.gif" class="fancybox" title="Blind Sheep/ watercolor"><img src="images/sheepthumb.gif" alt="sheep" HEIGHT="100" WIDTH="100"/></a>
+<a class="fancybox" rel="gallery1" a href="images/wiz-final.gif"  class="fancybox" title="If I Knew You and You Knew Me/ colored pencil"><img src="images/wiz-finalthumb.gif" alt="wiz" HEIGHT="100" WIDTH="100"/></a>
+<a class="fancybox" rel="gallery1" a href="images/Sacred-mountain.gif"  class="fancybox" title="Sacred Mountain/ scratchboard"><img src="images/Sacred-mountainthumb.gif" alt="sacredmountain" HEIGHT="100" WIDTH="100"/></a>
+<a class="fancybox" rel="gallery1" a href="images/zach.gif" class="fancybox" title="Zechariah/ watercolor"><img src="images/zachthumb.gif" alt="fox" HEIGHT="100" WIDTH="100"/></a>
+<a class="fancybox" rel="gallery1" a href="images/SpringIsHere.gif" class="fancybox" title="Spring is Here/ mixed media"><img src="images/SpringIsHereSm.gif" alt="bunnies" HEIGHT="100" WIDTH="100"/></a>
+<a class="fancybox" rel="gallery1" a href="images/reflection.gif" class="fancybox" title="Reflection/ ink"><img src="images/reflectionSm.gif" alt="reflection" HEIGHT="100" WIDTH="100"/></a>
+<a class="fancybox" rel="gallery1" a href="images/jeweledwaters.gif" class="fancybox" title="Diamond Waters/ scratchboard"><img src="images/jeweledwaterssm.gif" alt="reflection" HEIGHT="100" WIDTH="100"/></a>
+</div>
+
+<img class="duck" src="images/duck.gif" alt="duck">
+<div id="footer-wrapper">
+ <nav id="main-menu"> 
+ <ul> 
+    <li><a href="AboutContact.html">About/Contact</a></li>  
+    <li><a href="Illustration.html">Illustration</a></li>
+	<li><a href="ProcessWork.html">Process Work</a></li>
+	<li><a href="Design.html">Design</a></li>
+	<a>&copy; Copyright Youngshim Gontijo 2013</a>   
+</ul>
+</nav>
+</div>
+</body>
+</html>
+
+  
+  
+  
+  
+  
+  
+  
+  
