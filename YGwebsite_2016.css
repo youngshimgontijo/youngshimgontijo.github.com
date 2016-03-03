@@ -1,0 +1,305 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	background-color:c5c6c7;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Center Content */
+
+.centered { 
+  margin:0 auto;
+  width:960px;
+}
+
+
+/* Clearfix */
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+.clearfix { display: inline-block; }
+html[xmlns] .clearfix { display: block; }
+* html .clearfix { height: 1%; }
+
+
+
+
+
+
+body { 
+	   width:100%; 
+	   max-width:1024px;
+	   margin:0 auto;
+	   background-color:cccccc; }
+	   
+@media screen and (max-width:960px) {
+    #content { float:none; width:98%; margin:0 1%; }
+    #footer-wrapper { float:none; width:98%; margin:0 1%; }
+	#main-menu{ float:none; width:98%; margin:0 1%; }
+	#sidebar {float:none; width:98%; margin:0 1%; }
+	.jewels{float:left;	width:500px;margin-left:40px;}
+
+  }
+  
+   @media screen and (max-width:750px) {
+    body { font-size:0.5em; }
+    #content { float:none; width:98%; margin:0 1%; }
+	#footer-wrapper { float:none; width:70%; margin:0 1%; }
+	#main-menu{ float:none; width:50%; margin:0 1%; }
+	#sidebar {float:none; width:50%; margin:0 1%; }
+	.article1{ float:none; width:50%; margin:0 1%; }
+	.line-separator{ float:none; width:98%; margin:0 1%; }
+    p { font-size:17px; }
+	.line-separator{width:750px;}
+	.jewels{float:left;	width:450px;margin-left:40px;}
+   }
+  
+  @media screen and (max-width:600px) {
+    body { font-size:0.5em; }
+    #content { float:none; width:98%; margin:0 1%; }
+	#footer-wrapper { float:none; width:50%; margin:0 1%; }
+	#main-menu{ float:none; width:50%; margin:0 1%; }
+	#sidebar {float:none; width:40%; margin:0 1%; }
+	.article1{ float:none; width:50%; margin:0 1%; }
+	.line-separator{ float:none; width:98%; margin:0 1%; }
+    p { font-size:17px; }
+	.line-separator{width:600px;}
+	.jewels{float:left;	width:400px;margin-left:40px;}
+  }
+	  @media screen and (max-width:500px) {
+    #content { float:left; width:98%; margin:0 1%; }
+   #footer-wrapper { float:none; width:40%; margin:0 1%; }
+	#main-menu{ float:none; width:50%; margin:0 1%; }
+	#sidebar {float:none; width:30%; margin:0 1%; }
+	.article1{ float:none; width:50%; margin:0 1%; }
+	.line-separator{ float:none; width:98%; margin:0 1%;}
+	.jewels{float:left;	width:300px;margin-left:40px;}
+  }
+  
+  @media screen and (max-width:400px) {
+    #content { float:left; width:98%; margin:0 1%; }
+   #footer-wrapper { float:none; width:30%; margin:0 1%; }
+	#main-menu{ float:none; width:0%; margin:0 1%; }
+	#sidebar {float:none; width:20%; margin:0 1%; }
+	.article1{ float:left; width:200px;margin:0 1%; } 
+	.clear{clear:left;}
+	.line-separator{ float:none; width:98%; margin:0 1%; }
+	.clear{clear:left;}
+	h1{font-size:16px;width:50%;}
+	p { font-size:16px; float:left;width:50%;}
+	.line-separator{width:250px;}
+	.jewels{float:left;	width:200px;margin-left:40px;}
+
+  }
+	
+	
+#content{
+	width:80%; margin:0 auto; padding:30px 0px;
+	}
+
+#footer-wrapper {
+	width: 100%;
+    float: left;
+    padding: 0;
+    list-style: none;
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc; }
+}
+	
+#main-menu {
+	list-style: none;
+	position:relative;
+	left:0px;
+	height:30px;
+	background-color:;
+	}
+	
+#main-menu li:hover {  
+    border: 1px solid #E0E0E0;  
+    background: #F4F4F4; 
+	}
+	
+#main-menu li {  
+ 	float:left;  
+    display:block;  
+	margin-left:0px; 
+	margin-right:90px;
+	padding:2px;
+	background-color:;
+}
+	
+#main-menu li a {  
+    font-family: Helvetica, Arial, sans-serif;  
+    font-size:16px;  
+	color:black; 
+	line-height: 15px; 
+    display:block; 
+    outline:0;  
+    text-decoration:none; 
+}
+#menu li ul {
+	display:none;
+	position:absolute;
+	top:20px; 
+}
+	
+ul {
+	float:left;
+	display:block;
+	position:relative;
+	margin-left:40px;
+	margin-top:10px;
+	margin-bottom:10px;
+	list-style-type:none;
+	text-align:left;
+	font-size:16px;
+	font-family: Helvetica, Arial, sans-serif;  
+	background-color:#efefef;
+	width:960px;
+	padding:5px;
+	}
+	
+.credits {
+		 text-decoration:underline;
+		 }
+a {
+		 text-decoration:none;
+		 color:#630;
+		 }
+
+#sidebar { float:left; 
+			width:220px; 
+			padding:10px 10px; 
+			background-color:;
+			margin-bottom:10px;
+			margin-left:45px;
+			
+				}
+
+}
+
+
+.article1{
+	float:left; 
+	margin-right:50px;
+	padding: 10px;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	width:50%;
+	background-color:;
+	line-height:20px;
+	margin-bottom:10px;
+	}	
+	
+.selfpic{
+		  width:40%;
+		  float:left;
+		  }
+		  
+.contact{
+	float:right;
+	background-color:;
+	width:300px;
+	margin-top:20px;
+	margin-bottom:auto;
+	font-size:16px;
+	font-family:Helvetica, Arial, sans-serif;   }
+	
+clear{
+	clear:both;}
+
+h1{ font-size: 36px;
+	text-align:right;
+	font-family:Helvetica, Arial, sans-serif;  
+	background-color:#efefef;
+	width:600px;
+	float:right;
+	margin-top:42px;
+	padding:6px;
+}
+
+p{ 
+	background-color:;
+	color:black;
+	text-align:left;
+	font-size:16px;
+	font-family:Helvetica, Arial, sans-serif;   
+	width:70%;
+	margin-bottom:80px;
+	}
+
+.About{
+	font-family:Helvetica, Arial, sans-serif;  
+	font-size:24px;
+	text-align:right;
+	}
+	
+.jewels{
+	float:left;	
+	width:500px;
+	margin-left:40px;
+	}
+	
+a.yglogo{ 
+background-image: url(file://localhost/Users/YoungshimGontijo/Desktop/youngshimgontijo.github.com/final/index.html);
+display: block;
+float:left;
+width:300px;
+
+}
+	
+.logomain{
+	float:right;
+	width:400px;
+	margin-top:200px;}
+	
